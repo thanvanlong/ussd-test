@@ -15,7 +15,7 @@ public class Controller {
         XmlParser xmlParser = new XmlParser();
         List<Content> menu = null;
         try {
-             menu = xmlParser.loadStates("E:\\TinaSoft\\ishare-viettel\\ussdapp_source\\etc\\states.xml","Vietnamese");
+             menu = xmlParser.loadStates("https://github.com/thanvanlong/ussd-test/blob/b48ca455c40c5157e5a5cc26194f51e7a67fd037/src/main/java/com/example/ussdtest/state.xml","Vietnamese");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
