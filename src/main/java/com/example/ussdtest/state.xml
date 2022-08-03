@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<states>
+    <state>
+        <ID>5</ID>
+        <content>
+            <key>1</key>
+            <language>Laos</language>
+            <value>home</value>
+        </content>
+        <content>
+            <key>3</key>
+            <language>Vietnamese</language>
+            <value>home</value>
+        </content>
+    </state>
+    <state>
+        <ID>6</ID>
+        <content>
+            <key>1</key>
+            <language>Laos</language>
+            <value>ເລືອກຄໍາຕອບ
+                1.Hot
+                2.ແພັກເກດອື່ນໆ
+                3.ໂທຖືກ
+                4.ໂທຕ່າງປະເທດ
+                5.VAS
+                6.ຂໍ້ມູນນໍາໃຊ້
+                0.Back</value>
+        </content>
+        <content>
+            <key>3</key>
+            <language>Vietnamese</language>
+            <value>Chon cau tra loi
+                1.Goi HOT
+                2.Goi Data khac
+                3.Goi Thoai
+                4.Goi quoc te
+                5.Goi Vas
+                6.Kiem tra goi va tai khoan
+                0.Quay lai
+            </value>
+        </content>
+    </state>
+    <state>
+        <ID>7</ID>
+        <content>
+            <key>1</key>
+            <language>Laos</language>
+            <value>ເລືອກຄໍາຕອບ
+                1.10000 ກ=270MB/30ມ
+                2.50000 ກ=1500MB/30ມ
+                3.120000 ກ=4000MB/30ມ
+                0.ກັບຄືນ</value>
+        </content>
+        <content>
+            <key>3</key>
+            <language>Vietnamese</language>
+            <value>Chon cau tra loi
+                1.10,000 Kip=270MB/30 ngay
+                2.50,000 Kip=1,5GB/30 ngay
+                3.120,000 Kip=4GB/30 ngay
+                0.Quay lai</value>
+        </content>
+    </state>
+    <state>
+        <ID>8</ID>
+        <content>
+            <key>1</key>
+            <language>Laos</language>
+            <value>ເລືອກຄໍາຕອບ
+                1.1000 ກ=25MB/24h
+                2.2000 ກ=60MB/24h
+                3.5000 ກ=125MB/24h
+                4.100000 ກ=4,000MB/30ມ
+                0.ກັບຄືນ</value>
+        </content>
+        <content>
+            <key>3</key>
+            <language>Vietnamese</language>
+            <value>Chon cau tra loi
+                1.1,000 Kip=25MB/24h
+                2.2,000 kip=60MB/24h
+                3.5,000 Kip=125MB/24h
+                4.100,000 Kip=4GB/30 ngay
+                0.Quay lai</value>
+        </content>
+    </state>
+    <state>
+        <ID>10</ID>
+        <content>
+            <key>1</key>
+            <language>Laos</language>
+            <value>ເລືອກຄໍາຕອບ
+                1. 25,000 ກີບ ໂທ 300 ກ/ນທ/30ມ
+                2.ກວດຄ່າໂທ
+                0.ກັບຄືນ</value>
+        </content>
+        <content>
+            <key>3</key>
+            <language>Vietnamese</language>
+            <value>Chon cau tra loi
+                1. Phi DK =25,000 Kip, goi noi mang + ngoai mang =300 Kip/phut.
+                2. Kiem tra gia cuoc goi hien tai.
+                0. Quay lai</value>
+        </content>
+    </state>
+</states>
