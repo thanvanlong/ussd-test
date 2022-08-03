@@ -20,7 +20,7 @@ public class Controller {
                                      "src/main/java/com/example/ussdtest/state.xml"
                                      ,"Vietnamese");
             System.out.println("CON " + menu.get(1).toString());
-            return menu.get(1).toString();
+            return "CON " + menu.get(1).toString();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
