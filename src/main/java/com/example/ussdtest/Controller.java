@@ -20,6 +20,13 @@ public class Controller {
                                      "src/main/java/com/example/ussdtest/state.xml"
                                      ,"Vietnamese");
             System.out.println("CON " + menu.get(1).toString());
+            if(text.equalsIgnoreCase("")){
+                return "CON " + menu.get(1).toString();
+            } else if (text.equalsIgnoreCase("1")) {
+                return "CON 1.My phone number is 00000000";
+            } else if (text.equalsIgnoreCase("1*0")) {
+                return "CON " + menu.get(1).toString();
+            }
             return "CON " + menu.get(1).toString();
         } catch (Exception e) {
             throw new RuntimeException(e);
