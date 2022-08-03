@@ -19,7 +19,7 @@ public class Controller {
                              .loadStates(
                                      "src/main/java/com/example/ussdtest/state.xml"
                                      ,"Vietnamese");
-            System.out.println(menu.get(1).toString());
+            System.out.println("CON " + menu.get(1).toString());
             return menu.get(1).toString();
         } catch (Exception e) {
             throw new RuntimeException(e);
