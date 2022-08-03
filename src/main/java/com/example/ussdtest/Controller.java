@@ -10,8 +10,8 @@ import java.util.List;
 public class Controller {
 
     @PostMapping("/text")
-    public String menu(@RequestParam String text){
-        System.out.println(text);
+    public String menu(@RequestParam String phoneNumber){
+        System.out.println(phoneNumber);
         XmlParser xmlParser = new XmlParser();
         try {
             List<Content> menu  =
@@ -27,6 +27,12 @@ public class Controller {
 
 
 
+    }
+
+
+    @GetMapping("/")
+    public String index(){
+        return "long here";
     }
 
 }
