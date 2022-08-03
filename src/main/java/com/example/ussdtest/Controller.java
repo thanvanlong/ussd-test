@@ -13,15 +13,20 @@ public class Controller {
     public String menu(@RequestParam String text){
         System.out.println(text);
         XmlParser xmlParser = new XmlParser();
-        List<Content> menu = null;
         try {
-             menu = xmlParser.loadStates("https://github.com/thanvanlong/ussd-test/blob/b48ca455c40c5157e5a5cc26194f51e7a67fd037/src/main/java/com/example/ussdtest/state.xml","Vietnamese");
+            List<Content> menu  =
+                     xmlParser
+                             .loadStates(
+                                     "src/main/java/com/example/ussdtest/state.xml"
+                                     ,"Vietnamese");
+            System.out.println(menu.get(1).toString());
+            return menu.get(1).toString();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
 
 
-        return menu.get(1).toString();
+
     }
 
 }
