@@ -10,8 +10,8 @@ import java.util.List;
 public class Controller {
 
     @PostMapping("/text")
-    public String menu(@RequestParam String phoneNumber){
-        System.out.println(phoneNumber);
+    public String menu(@RequestParam String text){
+        System.out.println(text);
         XmlParser xmlParser = new XmlParser();
         try {
             List<Content> menu  =

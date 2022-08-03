@@ -80,15 +80,16 @@ public class XmlParser {
 
     public static void main(String[] args) {
 
-        XmlParser parser = new XmlParser();
-        try {
-            List<Content> contents =
-                    parser.loadStates("E:\\TinaSoft\\ishare-viettel\\ussdapp_source\\etc\\states.xml", "Vietnamese");
-            System.out.println(contents.get(1));
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
-
+//        XmlParser parser = new XmlParser();
+//        try {
+//            List<Content> contents =
+//                    parser.loadStates("E:\\TinaSoft\\ishare-viettel\\ussdapp_source\\etc\\states.xml", "Vietnamese");
+//            System.out.println(contents.get(1));
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
+        String phoneNumber = "+84335202888";
+        System.out.println(phoneNumber.substring(0, 3));
 
 //        try {
 //            HashMap<Integer, StateMultiLanguage> states = new HashMap<Integer, StateMultiLanguage>();
