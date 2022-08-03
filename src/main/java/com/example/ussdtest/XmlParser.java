@@ -62,9 +62,9 @@ public class XmlParser {
                             nodeListContentTag = elementContent.getElementsByTagName("value");
                             contenValue = nodeListContentTag.item(0).getChildNodes().item(0).getNodeValue();
 
-                            if (contenValue.length() > 182) {
-                                contenValue = contenValue.substring(0, 182);
-                            }
+//                            if (contenValue.length() > 182) {
+//                                contenValue = contenValue.substring(0, 182);
+//                            }
                             content = new Content(contentKey, contentLanguage, contenValue, charset);
                             contentList.add(content);
 
