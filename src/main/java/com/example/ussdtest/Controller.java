@@ -12,7 +12,7 @@ public class Controller {
     @PostMapping("/text")
     public String menu(){
 
-        System.out.println(text);
+
 
         return "CON What is your choice </br> 1. My phone number";
     }
