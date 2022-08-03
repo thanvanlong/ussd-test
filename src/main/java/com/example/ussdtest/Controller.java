@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    @GetMapping("/text/{text}")
-    public String menu(@PathVariable String text){
+    @PostMapping("/text")
+    public String menu(){
 
         System.out.println(text);
 
